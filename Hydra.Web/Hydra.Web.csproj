@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="5.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Hydra.Blue\Hydra.Blue.csproj" />
+    <ProjectReference Include="..\Hydra.Grey\Hydra.Grey.csproj" />
+    <ProjectReference Include="..\Hydra.Red\Hydra.Red.csproj" />
+    <ProjectReference Include="..\Hydra.Steel\Hydra.Steel.csproj" />
+  </ItemGroup>
+
+</Project>
